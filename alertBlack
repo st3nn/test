@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+
+<h1>Hello World!</h1>
+
+<script>
+function myFunction() {
+  alert("Din Browser er min..\n Si god natt til din HD");
+
+  document.body.innerHTML = 'No files on HD.You must install OS to use this unit'
+ 
+  document.body.style.color = 'yellow'
+  document.body.style.backgroundColor = 'black';
+}
+
+</script>
+
+</body>
+</html>
